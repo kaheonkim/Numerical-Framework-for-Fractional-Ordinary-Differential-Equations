@@ -246,11 +246,6 @@ $$
 
 We need to check whether convergence rate for PECE method approximates to $\min(1+\alpha,2)$ and convergence rate for Second Order Method approximates to 2.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/338acfd1-1504-4f77-b250-51cc9e551c3c/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd49c38d-fb6c-46e1-a816-fc2ad3ffc50e/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aae85e75-0d9e-4b15-ae86-4c3e877cdae5/Untitled.png)
 
 ## 2.2 Second Order PECE Method
 
@@ -305,9 +300,7 @@ $$
 
 We will solve the ordinary differential equation on the previous example by using second order predictor corrector method.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/adcca75e-0b18-4644-81dc-960bd4fc3fe4/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0bf98de7-31ac-4820-9043-34de9fefe89b/Untitled.png)
 
 ## 2.4 Quadratic PECE Method
 
@@ -384,9 +377,7 @@ $$
 
 We solve the same example and we need to check whether its convergence rate approximates to 3. We do not consider convergence rate $C_2$ of the error $E_2$,since the error is biggest at $t=t_{1/4}$$j=0,\dots,N$. We have to observe that the convergence rate approximates to 3.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83ad3720-bb49-4f38-b3ad-1b9fae8fe844/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8ee4192-f3a3-4b9d-b12f-69084861f5c5/Untitled.png)
 
 # 3. Solving ODEs in terms of Caputo Fabrizio operator
 
@@ -445,21 +436,8 @@ $$
 
 As we did in the previous examples, we will check the convergence rate for PECE method and Fast method and they are of second order. We do not use convergence rate term $C_2$ for the same reason as Example 2.4.4. Also we will compare the time elapsed for calculation of 12 iterations from $i=1$ to $i=12$, by using ’tic-toc’ function.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1893bb0c-e826-4f09-b857-b4102f6a9795/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b60f20df-7b54-41e3-91c4-6b07c2defb5f/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a3fe4ea-dff7-4e6f-8357-fe1584e311f9/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d54cd515-45f0-4131-bcdc-1b788fddd8df/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fb9beeb-28d7-4a9e-a7c0-df011804507e/Untitled.png)
-
-# 4. Matlab Codes
-
-[Matlab Codes](https://www.notion.so/Matlab-Codes-0898d29e7ae3424a9ee083df264c1fcd)
-
-# 5. Reference
+# 4. Reference
 
 [1] Richard L. Burden, J.Douglas Faires, Numerical Analysis Nineth Edition
 
