@@ -14,7 +14,7 @@ period : 2020 Winter
 
 ### 1.1.1 Theorem
 
-Suppose that $f$ is defined and continuous on [a, b]. For each ε > 0, there exists a polynomial $P(x)$, with the property that
+Suppose t$f$ is defined and continuous on [a, b]. For each ε > 0, there exists a polynomial $P(x)$, with the property that
 
 $$
 |f(x)-P(x)|<\epsilon, \text{ for all } x \text{ in } [a,b]
