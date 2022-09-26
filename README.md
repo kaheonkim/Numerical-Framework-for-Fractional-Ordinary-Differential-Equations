@@ -134,9 +134,9 @@ $$
 We will use ’Predictor-Corrector Method’ as a numerical scheme to solve given ordinary differential equation. The method approximates the solution and the approximation consists of two parts: ’predictor’ part and ’corrector part’. Predictor is the part which predicts the solution by using initial values and Corrector part corrects predictor values.
 Before we use the method, we make the assumption that the domain consists of finitely many values and that the interval is uniform. Let $\Phi_N$ be the domain, then
 
-$
-\Phi_N =\left\{ t_j|a=t_0<\cdots<t_j<\cdots<t_n<t_{n+1}<\cdots<t_N= b\right\}
-$
+$$
+\Phi_N = \left\{ t_j|a=t_0<\cdots<t_j<\cdots<t_n<t_{n+1}<\cdots<t_N= b\right\}
+$$
 
 and $t_j-t_{j-1} =h$ for $j=1,\dots,N$, where $h=\frac{b-a}{N}$. And we will denote $f(t_j,y_j)$ as $f_j$ and $y_j$ as the approximated value of $y(t_j)$, which is the exact value.
 
@@ -146,7 +146,7 @@ $$
 y(t_{n+1})\simeq y_{n+1} = g(t_{n+1})+\frac{1}{\Gamma(\alpha)}\sum_{j=0}^n\int_{t_j}^{t_{j+1}}(t_{n+1}-\tau)^{\alpha-1}f(\tau,y(\tau))d\tau
 $$
 
-where $g(t_{n+1}) = \sum_{k=0}^{[\alpha]}\frac{(t_{n+1}-a)^k}{k!}y^{(k)}$.
+where $g(t_{n+1}) = \sum_{k=0}^{\alpha}\frac{(t_{n+1}-a)^k}{k!}y^{(k)}$.
 
 We will substitute $f(\tau,y(\tau))$ by interpolating previous points. For the case n = 0, the equation above becomes
 
