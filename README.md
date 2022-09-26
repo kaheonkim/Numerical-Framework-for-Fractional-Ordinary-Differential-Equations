@@ -237,7 +237,7 @@ $$
 We measure the convergence rates $C_1,C_2,C_3$ by using 3 norms, $E_1,E_2,E_3$ for each iterations by
 
 $$
-E_1 = |y(t_N)-y_N| \\ E_2 = \max_{j=0,\dots N}|y(t_j)-y_j| \\E_3= \sqrt{h\sum_{j=0}^N|y(t_j)-y_j|}
+E_1 = |y(t_N)-y_N| \\ E_2 = \max_{j=0,\dots N}|y(t_j)-y_j| \\ E_3= \sqrt{h\sum_{j=0}^N|y(t_j)-y_j|}
 $$
 
 $$
