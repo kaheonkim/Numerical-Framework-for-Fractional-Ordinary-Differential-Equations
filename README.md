@@ -222,7 +222,8 @@ where $y_{n+1}$ is approximated value and $y(t_{n+1})$ is exact value for $t=t_{
 We will solve the ordinary differential equation given below
 
 $$
-\begin{cases}D_0^\alpha y(t)=\frac{\Gamma(4+\alpha)}{6}t^3+t^{3+\alpha}-y \\ y^{(0)}=0,y^{(1)}(0)=0\end{cases}
+\begin{cases}D_0^\alpha y(t)=\frac{\Gamma(4+\alpha)}{6}t^3+t^{3+\alpha}-y 
+\\ y^{(0)}=0,y^{(1)}(0)=0 \end{cases}
 $$
 
 and the exact solution for the equation is
