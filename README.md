@@ -203,7 +203,7 @@ As we know intuitively, $\min(2,1+\alpha)\leq2$ since $0<\alpha<1$. It means tha
 
 ### 2.1.3 Theorem
 
-Let define $E_{n+1}$ is global error. Suppose$f(\cdot,y(\cdot))\in C^2[a,b]$ and is Lipschitz continuous, i.e. 
+Let define $E_{n+1}$ is global error. Suppose $f(\cdot,y(\cdot))\in C^2[a,b]$ and is Lipschitz continuous, i.e. 
 
 $$
 |f(x,y_1)-f(x,y_2)|\leq L|y_1-y_2|
