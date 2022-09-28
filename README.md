@@ -393,7 +393,7 @@ As same as the PECE for Riemann Liouville operator, we use the $\hat{g}_{n+1}$ a
 $\frac{1-\alpha}{M(\alpha)}f(t_{n+1},y(t_{n+1}))$ is the corrector.
 
 $$
-y_{n+1}=\hat{g}_{n+1} +\frac{\alpha} {1-\alpha} \sum_{j=0}^n \int_{t_j}^{t_{j+1}} e^{-\frac{\alpha}{1-\alpha}}y(\tau)d\tau
+y_{n+1} = \hat{g}_{n+1} + \frac{\alpha}{1-\alpha} \sum_{j=0} ^n \int_{t_j}^{t_{j+1}} e^{-\frac{\alpha}{1-\alpha}}y(\tau)d\tau
 $$
 
 where $\hat{f}_{n+1}=\frac{1-\alpha}{M(\alpha)}f(t_{n+1},y(t_{n+1}))$ and $M(\alpha)$ is normalized function, $M(0)=M(1)=1$. We assumed $M(\alpha)=1$ for simplicity. For the corrector part, we should substitute $f(\tau,y(\tau))$ by interpolation. For predictor part $g_{n+1}$, we substituted $f (t_{n+1})$ by interpolating $y_n$ and $y_{n−1}$. i.e.
