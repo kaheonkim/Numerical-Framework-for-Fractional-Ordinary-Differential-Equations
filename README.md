@@ -148,10 +148,10 @@ y(t_{n+1})\simeq y_{n+1} = g(t_{n+1})+\frac{1}{\Gamma(\alpha)}\sum_{j=0}^n\int_{
 $$
 
 where 
+
 $$
 g(t_{n+1}) = \sum_{k=0}^{[\alpha]} \frac{(t_{n+1}-a)^k}{k!}y^{(k)}
 $$
-.
 
 We will substitute $f(\tau,y(\tau))$ by interpolating previous points. For the case n = 0, the equation above becomes
 
