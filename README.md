@@ -118,7 +118,7 @@ $$
 We need to solve the ordinary differential equation and the equation is given as
 
 $$
-\begin{cases}D_a^\alpha y(t) =f(t,y(t))& t\in[a,b] \\ y^{(k)}(0)=y_k&k=0,1,\cdots,[\alpha] \end{cases}
+\begin{cases} D_a^\alpha y(t) =f(t,y(t))& t\in[a,b] \\ y^{(k)}(0)=y_k&k=0,1,\cdots,[\alpha] \end{cases}
 $$
 
 ### 2.1.1 Lemma
@@ -135,7 +135,7 @@ We will use ’Predictor-Corrector Method’ as a numerical scheme to solve give
 Before we use the method, we make the assumption that the domain consists of finitely many values and that the interval is uniform. Let $\Phi_N$ be the domain, then
 
 $$
-\Phi_N =\left{t_j | a=t_0<\cdots<t_j<\cdots<t_n<t_{n+1}<\cdots<t_N= b \right}
+\Phi_N =\left\{\right\}
 $$
 
 and $t_j-t_{j-1} =h$ for $j=1,\dots,N$, where $h=\frac{b-a}{N}$. And we will denote $f(t_j,y_j)$ as $f_j$ and $y_j$ as the approximated value of $y(t_j)$, which is the exact value.
