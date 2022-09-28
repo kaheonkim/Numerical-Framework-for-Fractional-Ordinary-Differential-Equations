@@ -118,7 +118,7 @@ $$
 We need to solve the ordinary differential equation and the equation is given as
 
 $$
-\begin{cases} D_a^\alpha y(t) =f(t,y(t))& t\in[a,b] \\ y^{(k)}(0)=y_k&k=0,1,\cdots,[\alpha] \end{cases}
+\begin{cases} D_a^\alpha y(t) =f(t,y(t))& t\in[a,b] && y^{(k)}(0)=y_k&k=0,1,\cdots,[\alpha] \end{cases}
 $$
 
 ### 2.1.1 Lemma
